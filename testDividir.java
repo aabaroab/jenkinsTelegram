@@ -1,3 +1,4 @@
+import java.util.Random;
 class testDividir{
     public static void main(String args[]){
         Random r = new Random();
