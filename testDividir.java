@@ -1,4 +1,4 @@
-import java.util.Random;
+import java.util.*;
 class testDividir{
     public static void main(String[] args) {
         int i=0;
