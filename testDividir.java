@@ -1,7 +1,8 @@
-import java.util.*;
+import java.util.Random;
 class testDividir{
     public static void main(String[] args) {
-        int i=0;
-        System.out.println("Seed " + i + ": " + RandomNumberGenerator(i, 0, 1));
+        Random rand = new Random();
+        int n = rand.nextInt(2);
+        System.out.println("Randon generate number: " +n);
     }
 }
